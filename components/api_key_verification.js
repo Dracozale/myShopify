@@ -14,7 +14,7 @@ function valapikey(accdetail) {
         console.log("Accdetail : ", accdetail.accdetail.shop.name);
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
-        myHeaders.append("X-User-Key", "N3cxTUpZUk1RdjZMa0xpN3VTUG5YWHQxeWhnajgzVVk=");
+        myHeaders.append("X-User-Key", "N3cxTUpZUk1RdjZM");
         console.log("nak kuar:", accdetail.accdetail.shop);
         var shopd = accdetail.accdetail.shop;
         var shopn = shopd.domains[0].url.replace(/(^\w+:|^)\/\//,'');
