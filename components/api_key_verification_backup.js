@@ -11,7 +11,7 @@ import store from 'store-js';
 async function sendexistorder(prevorder){
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
-  myHeaders.append("X-User-Key", "SzJDemlUYko5ZTlKaEhuVWh1MU5MV0VWZDhBYnBCZUE=");
+  myHeaders.append("X-User-Key", "SzJ");
 
   var prevdataoptions = {        
     method: 'POST',
@@ -38,7 +38,7 @@ function valapikey(accdetail) {
         console.log("Accdetail : ", accdetail.accdetail.shop.name);
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
-        myHeaders.append("X-User-Key", "Mmo3dW5FUEI5Y2RZQmV2TjE0MkdzaVNqNFZkbmdtbVc=");
+        myHeaders.append("X-User-Key", "Mmo3d");
         console.log("nak kuar:", accdetail.accdetail.shop);
         var shopd = accdetail.accdetail.shop;
         var shopn = shopd.domains[0].url.replace(/(^\w+:|^)\/\//,'');
